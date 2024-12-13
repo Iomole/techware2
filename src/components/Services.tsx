@@ -1,37 +1,67 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Server, Shield, Wallet, Package, Code, Laptop } from 'lucide-react';
+import { Server, Shield, Wallet, Package, Code, Laptop, Database, Cog, BookOpen, FileCheck } from 'lucide-react';
 
 const services = [
   {
     title: "Data Center Solutions",
     description: "Comprehensive data center infrastructure design and maintenance services.",
     icon: Server,
+    href: "/services/data-center",
   },
   {
-    title: "Cybersecurity",
-    description: "End-to-end security solutions to protect your digital assets.",
-    icon: Shield,
+    title: "Managed Services",
+    description: "End-to-end IT infrastructure management and support.",
+    icon: Cog,
+    href: "/services/managed-services",
   },
   {
     title: "Digital Banking",
     description: "Modern banking solutions for the digital age.",
     icon: Wallet,
+    href: "/services/digital-banking",
+  },
+  {
+    title: "Cybersecurity",
+    description: "Comprehensive security solutions to protect your digital assets.",
+    icon: Shield,
+    href: "/services/cybersecurity",
+  },
+  {
+    title: "Business Applications",
+    description: "Custom business applications tailored to your needs.",
+    icon: Database,
+    href: "/services/business-applications",
   },
   {
     title: "IT Supplies",
     description: "Quality hardware and software solutions for your business.",
     icon: Package,
+    href: "/services/it-supplies",
+  },
+  {
+    title: "Technology Resourcing",
+    description: "Expert IT staffing and talent solutions.",
+    icon: Code,
+    href: "/services/technology-resourcing",
   },
   {
     title: "Bespoke Development",
-    description: "Custom software solutions tailored to your needs.",
-    icon: Code,
+    description: "Custom software development services.",
+    icon: Laptop,
+    href: "/services/bespoke-development",
   },
   {
-    title: "Managed Services",
-    description: "Comprehensive IT support and maintenance services.",
-    icon: Laptop,
+    title: "Technology Training",
+    description: "Comprehensive IT training programs.",
+    icon: BookOpen,
+    href: "/services/technology-training",
+  },
+  {
+    title: "NOTAP Certification",
+    description: "Expert assistance with NOTAP certification process.",
+    icon: FileCheck,
+    href: "/services/notap-certification",
   },
 ];
 
@@ -59,8 +89,10 @@ export const Services = () => {
                   <CardDescription>{service.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <a href={`/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`} 
-                     className="text-[#ea384c] hover:text-[#d02e40] font-medium">
+                  <a 
+                    href={service.href}
+                    className="text-[#ea384c] hover:text-[#d02e40] font-medium"
+                  >
                     Learn more →
                   </a>
                 </CardContent>

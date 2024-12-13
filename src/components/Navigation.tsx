@@ -49,7 +49,6 @@ export const Navigation = () => {
             ))}
           </div>
 
-          {/* Mobile Navigation Button */}
           <Button
             variant="ghost"
             size="icon"
