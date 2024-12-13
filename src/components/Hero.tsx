@@ -18,7 +18,7 @@ export const Hero = () => {
         >
           Enterprise Technology
           <br />
-          <span className="text-blue-600">Solutions</span>
+          <span className="text-[#ea384c]">Solutions</span>
         </motion.h1>
         <motion.p 
           initial={{ y: 20, opacity: 0 }}
@@ -34,10 +34,10 @@ export const Hero = () => {
           transition={{ delay: 0.6 }}
           className="flex justify-center gap-4"
         >
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+          <Button size="lg" className="bg-[#ea384c] hover:bg-[#d02e40] border-none">
             Get Started
           </Button>
-          <Button size="lg" variant="outline">
+          <Button size="lg" variant="outline" className="border-[#ea384c] text-[#ea384c] hover:bg-[#ea384c] hover:text-white">
             Learn More
           </Button>
         </motion.div>

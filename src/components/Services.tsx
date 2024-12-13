@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Server, Shield, Bank, Package, Code, Laptop } from 'lucide-react';
+import { Server, Shield, Wallet, Package, Code, Laptop } from 'lucide-react';
 
 const services = [
   {
@@ -16,7 +16,7 @@ const services = [
   {
     title: "Digital Banking",
     description: "Modern banking solutions for the digital age.",
-    icon: Bank,
+    icon: Wallet,
   },
   {
     title: "IT Supplies",
@@ -54,13 +54,13 @@ export const Services = () => {
             >
               <Card className="h-full hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <service.icon className="h-12 w-12 text-blue-600 mb-4" />
+                  <service.icon className="h-12 w-12 text-[#ea384c] mb-4" />
                   <CardTitle>{service.title}</CardTitle>
                   <CardDescription>{service.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <a href={`/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`} 
-                     className="text-blue-600 hover:text-blue-700 font-medium">
+                     className="text-[#ea384c] hover:text-[#d02e40] font-medium">
                     Learn more →
                   </a>
                 </CardContent>
