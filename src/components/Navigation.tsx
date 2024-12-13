@@ -8,6 +8,7 @@ export const Navigation = () => {
   const [isHovered, setIsHovered] = useState<string | null>(null);
 
   const links = [
+    { href: "/", text: "Home" },
     { href: "/solutions", text: "Solutions" },
     { href: "/services", text: "Services" },
     { href: "/about", text: "About" },
