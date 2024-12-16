@@ -8,29 +8,29 @@ export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#ea384c] backdrop-blur-md border-b">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-xl font-bold text-white">
+            <Link to="/" className="text-xl font-bold text-gray-900">
               Techware
             </Link>
           </div>
           
           <div className="hidden md:flex md:items-center md:space-x-8">
-            <Link to="/" className="text-white hover:text-gray-200">
+            <Link to="/" className="text-gray-900 hover:text-gray-600">
               Home
             </Link>
-            <Link to="/solutions" className="text-white hover:text-gray-200">
+            <Link to="/solutions" className="text-gray-900 hover:text-gray-600">
               Solutions
             </Link>
-            <Link to="/services" className="text-white hover:text-gray-200">
+            <Link to="/services" className="text-gray-900 hover:text-gray-600">
               Services
             </Link>
-            <Link to="/about" className="text-white hover:text-gray-200">
+            <Link to="/about" className="text-gray-900 hover:text-gray-600">
               About
             </Link>
-            <Link to="/contact" className="text-white hover:text-gray-200">
+            <Link to="/contact" className="text-gray-900 hover:text-gray-600">
               Contact
             </Link>
             <ThemeToggle />
@@ -41,7 +41,7 @@ export const Navigation = () => {
             <Button
               variant="ghost"
               size="icon"
-              className="ml-2 text-white hover:text-gray-200"
+              className="ml-2 text-gray-900 hover:text-gray-600"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? (
@@ -59,35 +59,35 @@ export const Navigation = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               to="/"
-              className="block px-3 py-2 text-white hover:text-gray-200"
+              className="block px-3 py-2 text-gray-900 hover:text-gray-600"
               onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
             <Link
               to="/solutions"
-              className="block px-3 py-2 text-white hover:text-gray-200"
+              className="block px-3 py-2 text-gray-900 hover:text-gray-600"
               onClick={() => setIsOpen(false)}
             >
               Solutions
             </Link>
             <Link
               to="/services"
-              className="block px-3 py-2 text-white hover:text-gray-200"
+              className="block px-3 py-2 text-gray-900 hover:text-gray-600"
               onClick={() => setIsOpen(false)}
             >
               Services
             </Link>
             <Link
               to="/about"
-              className="block px-3 py-2 text-white hover:text-gray-200"
+              className="block px-3 py-2 text-gray-900 hover:text-gray-600"
               onClick={() => setIsOpen(false)}
             >
               About
             </Link>
             <Link
               to="/contact"
-              className="block px-3 py-2 text-white hover:text-gray-200"
+              className="block px-3 py-2 text-gray-900 hover:text-gray-600"
               onClick={() => setIsOpen(false)}
             >
               Contact
