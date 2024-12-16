@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import { motion } from "framer-motion";
 import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 
 const About = () => {
   return (
@@ -33,6 +34,7 @@ const About = () => {
         </div>
       </section>
       <Contact />
+      <Footer />
     </main>
   );
 };

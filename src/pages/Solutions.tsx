@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import { Services } from "@/components/Services";
 import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 
 const Solutions = () => {
   return (
@@ -10,6 +11,7 @@ const Solutions = () => {
         <Services />
         <Contact />
       </div>
+      <Footer />
     </main>
   );
 };
