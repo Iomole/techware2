@@ -15,6 +15,7 @@ import DigitalBanking from "./pages/services/DigitalBanking";
 import Cybersecurity from "./pages/services/Cybersecurity";
 import EnterpriseApplications from "./pages/services/EnterpriseApplications";
 import ITSupplies from "./pages/services/ITSupplies";
+import TechnologyResourcing from "./pages/services/TechnologyResourcing";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
             <Route path="/services/cybersecurity" element={<Cybersecurity />} />
             <Route path="/services/enterprise-applications" element={<EnterpriseApplications />} />
             <Route path="/services/it-supplies" element={<ITSupplies />} />
+            <Route path="/services/technology-resourcing" element={<TechnologyResourcing />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
