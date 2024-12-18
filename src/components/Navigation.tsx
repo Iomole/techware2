@@ -12,8 +12,12 @@ export const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-xl font-bold text-gray-900">
-              Techware
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/4d84f0ca-0002-4c74-a087-c488fce49fec.png" 
+                alt="Techware Professional Services Ltd" 
+                className="h-8 w-auto"
+              />
             </Link>
           </div>
           
