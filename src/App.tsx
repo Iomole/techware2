@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import DataCenter from "./pages/services/DataCenter";
 import ManagedServices from "./pages/services/ManagedServices";
+import DigitalBanking from "./pages/services/DigitalBanking";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/services/data-center" element={<DataCenter />} />
             <Route path="/services/managed-services" element={<ManagedServices />} />
+            <Route path="/services/digital-banking" element={<DigitalBanking />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
