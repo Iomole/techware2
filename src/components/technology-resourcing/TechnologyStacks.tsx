@@ -5,16 +5,16 @@ const stacks = [
   {
     name: "Frontend Development",
     technologies: [
-      { name: "React", logo: "/lovable-uploads/ca92ba81-089e-426e-8dcb-736762f9d29f.png" },
-      { name: "Angular", logo: "/lovable-uploads/ea8e4c4a-1ce6-4a7d-a3cd-2d2db31e5053.png" },
-      { name: "Vue.js", logo: "/lovable-uploads/a8099269-90f1-4821-a267-7a2e9bfbd365.png" }
+      { name: "React", logo: "/lovable-uploads/956bc86b-db66-4483-9fc7-d14f57230f84.png" },
+      { name: "Angular", logo: "/lovable-uploads/060f72f5-5c02-45cd-b9c5-309b5db908a7.png" },
+      { name: "Vue.js", logo: "/lovable-uploads/306fae6b-88c9-40f7-8107-9988c52b6bd1.png" }
     ]
   },
   {
     name: "Backend Development",
     technologies: [
-      { name: "Node.js", logo: "/lovable-uploads/21ec66ce-3f76-433e-9838-9d4e43a0ae2d.png" },
-      { name: "Python", logo: "/lovable-uploads/1cafee7e-e7e3-4afb-af81-867b95a3b147.png" },
+      { name: "Node.js", logo: "/lovable-uploads/fa622015-07b9-4cac-8717-a10204534e89.png" },
+      { name: "Python", logo: "/lovable-uploads/df827ad4-75a6-4fc5-a995-ab2b47be6e25.png" },
       { name: "Java", logo: "/lovable-uploads/c10d68fe-bdb3-495e-882e-4abeda06333c.png" }
     ]
   },
