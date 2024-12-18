@@ -16,9 +16,9 @@ export const Hero = () => {
           transition={{ delay: 0.2 }}
           className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white mb-8"
         >
-          Enterprise Technology
+          Techware Professional
           <br />
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-white/80">Solutions</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-white/80">Services Ltd</span>
         </motion.h1>
         <motion.p 
           initial={{ y: 20, opacity: 0 }}
