@@ -40,16 +40,7 @@ export const Hero = () => {
               size="lg" 
               className="bg-white text-[#ea384c] hover:bg-white/90 border-none shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
-              Get Started
-            </Button>
-          </Link>
-          <Link to="/contact#contact-details">
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-[#ea384c] shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-            >
-              Learn More
+              Get in Touch
             </Button>
           </Link>
         </motion.div>
