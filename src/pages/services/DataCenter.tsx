@@ -22,7 +22,7 @@ const partnerOEMs = [
   },
   {
     name: "NetApp",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/NetApp_logo.svg/1280px-NetApp_logo.svg.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NetApp_logo.svg/800px-NetApp_logo.svg.png",
     description: "Data storage and management"
   },
   {
