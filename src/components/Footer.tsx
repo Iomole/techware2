@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Globe, Facebook, Twitter, Linkedin } from "lucide-react";
+import { MapPin, Phone, Mail, Globe, Facebook, Instagram, Linkedin } from "lucide-react";
 import { Separator } from "./ui/separator";
 
 export const Footer = () => {
@@ -60,13 +60,28 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
+              <a 
+                href="https://www.facebook.com/Officialtechware.ng/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white/80 hover:text-white transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a 
+                href="https://www.instagram.com/officialtechware.ng/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white/80 hover:text-white transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
+              <a 
+                href="https://ng.linkedin.com/company/techware-professional-services-ltd" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white/80 hover:text-white transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
