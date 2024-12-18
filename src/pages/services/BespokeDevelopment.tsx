@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Code, Server, Mobile, Globe, Database, Cloud, Cog } from "lucide-react";
+import { Code, Server, Smartphone, Globe, Database, Cloud, Cog } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Navigation } from "@/components/Navigation";
@@ -18,7 +18,7 @@ const BespokeDevelopment = () => {
       description: "Scalable applications that streamline business processes and boost productivity."
     },
     {
-      icon: Mobile,
+      icon: Smartphone,
       title: "Mobile Applications",
       description: "Native and cross-platform mobile solutions for iOS and Android devices."
     },
