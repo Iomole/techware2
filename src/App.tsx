@@ -18,6 +18,7 @@ import ITSupplies from "./pages/services/ITSupplies";
 import TechnologyResourcing from "./pages/services/TechnologyResourcing";
 import BespokeDevelopment from "./pages/services/BespokeDevelopment";
 import TechnologyTraining from "./pages/services/TechnologyTraining";
+import NOTAPCertificate from "./pages/services/NOTAPCertificate";
 
 const queryClient = new QueryClient();
 
@@ -43,6 +44,7 @@ const App = () => (
             <Route path="/services/technology-resourcing" element={<TechnologyResourcing />} />
             <Route path="/services/bespoke-development" element={<BespokeDevelopment />} />
             <Route path="/services/technology-training" element={<TechnologyTraining />} />
+            <Route path="/services/notap-certificate" element={<NOTAPCertificate />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
