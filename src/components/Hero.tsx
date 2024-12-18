@@ -7,7 +7,7 @@ export const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-[#ea384c] via-[#f97316] to-[#ea384c]"
+      className="min-h-screen flex items-center justify-center px-4 bg-[#ea384c]"
     >
       <div className="text-center max-w-4xl mx-auto">
         <motion.h1 

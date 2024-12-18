@@ -55,9 +55,9 @@ export const Features = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-[#ea384c] to-[#f97316] rounded-lg blur opacity-20 group-hover:opacity-30 transition duration-300" />
             <div className="relative aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl transition-all duration-300 group-hover:shadow-2xl transform group-hover:-translate-y-1">
               <img
-                src="/placeholder.svg"
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
                 alt="Technology Solutions"
-                className="object-cover"
+                className="object-cover w-full h-full"
               />
             </div>
           </motion.div>
