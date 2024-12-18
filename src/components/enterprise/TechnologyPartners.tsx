@@ -29,7 +29,7 @@ const partners = [
   },
   {
     name: "Salesforce",
-    logo: "/lovable-uploads/0450517c-e9db-4187-a105-1470071e7107.png",
+    logo: "/lovable-uploads/809d7d2c-543b-4395-a955-6ad557bfded0.png",
     description: "CRM and cloud solutions"
   }
 ];
