@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Laptop, Monitor, Printer, Scanner } from "lucide-react";
+import { Laptop, Monitor, Printer, Computer } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const categories = [
@@ -24,7 +24,7 @@ const categories = [
   {
     title: "Scanners",
     description: "Document scanners and imaging solutions",
-    icon: Scanner,
+    icon: Computer,
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
   }
 ];
