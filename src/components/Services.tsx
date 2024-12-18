@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Server, Shield, Wallet, Package, Code, Laptop, Database, Cog, BookOpen, Building } from 'lucide-react';
+import { Server, Shield, Wallet, Package, Code, Database, Cog, BookOpen, Building, FileCheck } from 'lucide-react';
 
 const services = [
   {
@@ -58,10 +58,10 @@ const services = [
     href: "/services/technology-training",
   },
   {
-    title: "Business Applications",
-    description: "Custom business applications tailored to your needs.",
-    icon: Laptop,
-    href: "/services/business-applications",
+    title: "NOTAP Certificate Processing",
+    description: "Expert assistance with NOTAP certification and compliance.",
+    icon: FileCheck,
+    href: "/services/notap-certificate",
   },
 ];
 
