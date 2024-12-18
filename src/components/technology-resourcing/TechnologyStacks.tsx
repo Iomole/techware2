@@ -15,7 +15,8 @@ const stacks = [
     technologies: [
       { name: "Node.js", logo: "/lovable-uploads/fa622015-07b9-4cac-8717-a10204534e89.png" },
       { name: "Python", logo: "/lovable-uploads/df827ad4-75a6-4fc5-a995-ab2b47be6e25.png" },
-      { name: "Java", logo: "/lovable-uploads/e6d5ba3c-7d74-44b9-9cb3-1cfea0053a96.png" }
+      { name: "Java", logo: "/lovable-uploads/e6d5ba3c-7d74-44b9-9cb3-1cfea0053a96.png" },
+      { name: ".NET", logo: "/lovable-uploads/a1620261-7e25-403f-83f7-547af67f0acd.png" }
     ]
   },
   {
