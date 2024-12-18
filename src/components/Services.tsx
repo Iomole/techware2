@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Server, Shield, Wallet, Package, Code, Laptop, Database, Cog, BookOpen, FileCheck } from 'lucide-react';
+import { Server, Shield, Wallet, Package, Code, Laptop, Database, Cog, BookOpen, Building } from 'lucide-react';
 
 const services = [
   {
@@ -28,10 +28,10 @@ const services = [
     href: "/services/cybersecurity",
   },
   {
-    title: "Business Applications",
-    description: "Custom business applications tailored to your needs.",
-    icon: Database,
-    href: "/services/business-applications",
+    title: "Enterprise Applications",
+    description: "Comprehensive suite of business applications for enterprise needs.",
+    icon: Building,
+    href: "/services/enterprise-applications",
   },
   {
     title: "IT Supplies",
@@ -58,10 +58,10 @@ const services = [
     href: "/services/technology-training",
   },
   {
-    title: "NOTAP Certification",
-    description: "Expert assistance with NOTAP certification process.",
-    icon: FileCheck,
-    href: "/services/notap-certification",
+    title: "Business Applications",
+    description: "Custom business applications tailored to your needs.",
+    icon: Database,
+    href: "/services/business-applications",
   },
 ];
 

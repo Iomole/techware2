@@ -13,6 +13,7 @@ import DataCenter from "./pages/services/DataCenter";
 import ManagedServices from "./pages/services/ManagedServices";
 import DigitalBanking from "./pages/services/DigitalBanking";
 import Cybersecurity from "./pages/services/Cybersecurity";
+import EnterpriseApplications from "./pages/services/EnterpriseApplications";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/services/managed-services" element={<ManagedServices />} />
             <Route path="/services/digital-banking" element={<DigitalBanking />} />
             <Route path="/services/cybersecurity" element={<Cybersecurity />} />
+            <Route path="/services/enterprise-applications" element={<EnterpriseApplications />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
