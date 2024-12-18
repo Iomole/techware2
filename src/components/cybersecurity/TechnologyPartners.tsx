@@ -13,6 +13,11 @@ const partners = [
     description: "Network security solutions"
   },
   {
+    name: "Sophos",
+    logo: "/lovable-uploads/b32e64ad-7a52-4af8-b573-2dd53c8af9e0.png",
+    description: "Next-generation cybersecurity"
+  },
+  {
     name: "Forcepoint",
     logo: "/lovable-uploads/d3dac53e-b953-47ce-a156-9913ccd0686d.png",
     description: "Human-centric cybersecurity"
