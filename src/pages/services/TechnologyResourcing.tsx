@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { TechnologyStacks } from "@/components/technology-resourcing/TechnologyStacks";
 import { ClientLogos } from "@/components/technology-resourcing/ClientLogos";
 import { motion } from "framer-motion";
-import { Code } from "lucide-react";
+import { Code, Users } from "lucide-react";
 
 const TechnologyResourcing = () => {
   return (
@@ -22,10 +22,14 @@ const TechnologyResourcing = () => {
             <h1 className="text-4xl font-bold text-gray-900 mb-6">
               Technology Resourcing
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
               We provide expert IT staffing solutions across various technology stacks, 
               helping organizations build high-performing technical teams.
             </p>
+            <div className="flex items-center justify-center gap-2 text-lg text-gray-700">
+              <Users className="w-6 h-6 text-[#ea384c]" />
+              <span>Over 500 talented professionals in our resource pool</span>
+            </div>
           </motion.div>
 
           <TechnologyStacks />
