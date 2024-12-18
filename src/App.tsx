@@ -17,6 +17,7 @@ import EnterpriseApplications from "./pages/services/EnterpriseApplications";
 import ITSupplies from "./pages/services/ITSupplies";
 import TechnologyResourcing from "./pages/services/TechnologyResourcing";
 import BespokeDevelopment from "./pages/services/BespokeDevelopment";
+import TechnologyTraining from "./pages/services/TechnologyTraining";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +42,7 @@ const App = () => (
             <Route path="/services/it-supplies" element={<ITSupplies />} />
             <Route path="/services/technology-resourcing" element={<TechnologyResourcing />} />
             <Route path="/services/bespoke-development" element={<BespokeDevelopment />} />
+            <Route path="/services/technology-training" element={<TechnologyTraining />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>

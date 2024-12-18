@@ -53,7 +53,7 @@ const services = [
   },
   {
     title: "Technology Training",
-    description: "Comprehensive IT training programs.",
+    description: "Comprehensive technology training programs at our academy.",
     icon: BookOpen,
     href: "/services/technology-training",
   },
