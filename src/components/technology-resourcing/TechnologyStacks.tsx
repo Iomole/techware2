@@ -15,15 +15,25 @@ const stacks = [
     technologies: [
       { name: "Node.js", logo: "/lovable-uploads/fa622015-07b9-4cac-8717-a10204534e89.png" },
       { name: "Python", logo: "/lovable-uploads/df827ad4-75a6-4fc5-a995-ab2b47be6e25.png" },
-      { name: "Java", logo: "/lovable-uploads/c10d68fe-bdb3-495e-882e-4abeda06333c.png" }
+      { name: "Java", logo: "/lovable-uploads/e6d5ba3c-7d74-44b9-9cb3-1cfea0053a96.png" }
     ]
   },
   {
     name: "Database",
     technologies: [
-      { name: "MongoDB", logo: "/lovable-uploads/915f1067-44f7-4027-9eb0-64383d2a3923.png" },
-      { name: "PostgreSQL", logo: "/lovable-uploads/d867d8d8-f570-41ce-8e08-c179f62b9a5b.png" },
-      { name: "MySQL", logo: "/lovable-uploads/809d7d2c-543b-4395-a955-6ad557bfded0.png" }
+      { name: "MongoDB", logo: "/lovable-uploads/12225dfd-9ed9-4f0b-86c8-e65adc69557f.png" },
+      { name: "PostgreSQL", logo: "/lovable-uploads/10709485-e391-483c-b5df-4dc61f241923.png" },
+      { name: "MySQL", logo: "/lovable-uploads/15cd7a03-06af-42dc-89e5-fbf7385d4d02.png" }
+    ]
+  },
+  {
+    name: "Architecture",
+    technologies: [
+      { 
+        name: "Microservices", 
+        logo: "/lovable-uploads/bd1b4a56-bdd4-4135-8cdd-ed8e87dbf173.png",
+        description: "Scalable distributed systems"
+      }
     ]
   }
 ];
@@ -43,7 +53,7 @@ export const TechnologyStacks = () => {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {stacks.map((stack, stackIndex) => (
           <motion.div
             key={stack.name}
@@ -55,8 +65,8 @@ export const TechnologyStacks = () => {
             <Card className="h-full hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4">{stack.name}</h3>
-                <div className="grid grid-cols-3 gap-4">
-                  {stack.technologies.map((tech, techIndex) => (
+                <div className={`grid ${stack.technologies.length === 1 ? 'grid-cols-1' : 'grid-cols-3'} gap-4`}>
+                  {stack.technologies.map((tech) => (
                     <div
                       key={tech.name}
                       className="flex flex-col items-center justify-center"
@@ -68,7 +78,12 @@ export const TechnologyStacks = () => {
                           className="max-w-full max-h-full object-contain"
                         />
                       </div>
-                      <span className="text-sm text-gray-600">{tech.name}</span>
+                      <span className="text-sm text-gray-600 text-center">{tech.name}</span>
+                      {tech.description && (
+                        <span className="text-xs text-gray-500 text-center mt-1">
+                          {tech.description}
+                        </span>
+                      )}
                     </div>
                   ))}
                 </div>
