@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Linkedin, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, Globe, Facebook, Twitter, Linkedin } from "lucide-react";
 import { Separator } from "./ui/separator";
 
 export const Footer = () => {
@@ -15,42 +15,59 @@ export const Footer = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Solutions</h3>
-            <ul className="space-y-2 text-sm">
-              <li><a href="/services/data-center" className="text-white/80 hover:text-white">Data Center Solutions</a></li>
-              <li><a href="/services" className="text-white/80 hover:text-white">Managed Services</a></li>
-              <li><a href="/services" className="text-white/80 hover:text-white">Digital Banking</a></li>
-              <li><a href="/services" className="text-white/80 hover:text-white">Cybersecurity</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
-            <ul className="space-y-2 text-sm">
-              <li><a href="/services" className="text-white/80 hover:text-white">Professional Services</a></li>
-              <li><a href="/services" className="text-white/80 hover:text-white">Technology Training</a></li>
-              <li><a href="/services" className="text-white/80 hover:text-white">NOTAP Processing</a></li>
-              <li><a href="/services" className="text-white/80 hover:text-white">IT Supplies</a></li>
-            </ul>
+            <h3 className="text-lg font-semibold text-white mb-4">Our Locations</h3>
+            <div className="space-y-4 text-sm">
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-white/80 mt-1 flex-shrink-0" />
+                <p className="text-white/80">
+                  <span className="font-semibold">Abuja:</span> 1, Anthony Enahoro Street, Utako, Abuja
+                </p>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-white/80 mt-1 flex-shrink-0" />
+                <p className="text-white/80">
+                  <span className="font-semibold">Lagos:</span> 10th Floor, Standard Chartered Building, Plot 142, Ahmadu Bello Way, VI, Lagos
+                </p>
+              </div>
+            </div>
           </div>
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
-            <ul className="space-y-2 text-sm">
-              <li className="text-white/80">Lagos, Nigeria</li>
-              <li><a href="tel:+2348000000000" className="text-white/80 hover:text-white">+234 800 000 0000</a></li>
-              <li><a href="mailto:info@techware.com" className="text-white/80 hover:text-white">info@techware.com</a></li>
-            </ul>
-            <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-white/80 hover:text-white">
+            <div className="space-y-4 text-sm">
+              <div className="flex items-start gap-2">
+                <Phone className="w-4 h-4 text-white/80 mt-1 flex-shrink-0" />
+                <div className="text-white/80">
+                  <p>+234 905 220 3335</p>
+                  <p>+234 803 246 4859</p>
+                  <p>+234 811 110 1484</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <Mail className="w-4 h-4 text-white/80 mt-1 flex-shrink-0" />
+                <div className="text-white/80">
+                  <p>info@techware.ng</p>
+                  <p>marketing@techware.ng</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <Globe className="w-4 h-4 text-white/80 mt-1 flex-shrink-0" />
+                <a href="https://www.techware.ng" className="text-white/80 hover:text-white">
+                  www.techware.ng
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
+            <div className="flex space-x-4">
+              <a href="#" className="text-white/80 hover:text-white transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white/80 hover:text-white">
+              <a href="#" className="text-white/80 hover:text-white transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white/80 hover:text-white">
+              <a href="#" className="text-white/80 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-white/80 hover:text-white">
-                <Mail className="h-5 w-5" />
               </a>
             </div>
           </div>
