@@ -4,27 +4,27 @@ import { Card, CardContent } from "@/components/ui/card";
 const partners = [
   {
     name: "Oracle",
-    logo: "/lovable-uploads/ca92ba81-089e-426e-8dcb-736762f9d29f.png",
+    logo: "/lovable-uploads/21ec66ce-3f76-433e-9838-9d4e43a0ae2d.png",
     description: "Enterprise software solutions"
   },
   {
     name: "Microsoft",
-    logo: "/lovable-uploads/a8099269-90f1-4821-a267-7a2e9bfbd365.png",
+    logo: "/lovable-uploads/1cafee7e-e7e3-4afb-af81-867b95a3b147.png",
     description: "Business applications and cloud services"
   },
   {
     name: "Zoho",
-    logo: "/lovable-uploads/ea8e4c4a-1ce6-4a7d-a3cd-2d2db31e5053.png",
+    logo: "/lovable-uploads/c10d68fe-bdb3-495e-882e-4abeda06333c.png",
     description: "Cloud software suite"
   },
   {
     name: "Odoo",
-    logo: "/lovable-uploads/89459d06-e917-48b7-9cae-6c56da1edd94.png",
+    logo: "/lovable-uploads/915f1067-44f7-4027-9eb0-64383d2a3923.png",
     description: "Open source business apps"
   },
   {
     name: "SAP",
-    logo: "/lovable-uploads/596ae45d-3991-4643-93b9-3f7700c4732a.png",
+    logo: "/lovable-uploads/d867d8d8-f570-41ce-8e08-c179f62b9a5b.png",
     description: "Enterprise application software"
   },
   {
