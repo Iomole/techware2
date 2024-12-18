@@ -16,6 +16,7 @@ import Cybersecurity from "./pages/services/Cybersecurity";
 import EnterpriseApplications from "./pages/services/EnterpriseApplications";
 import ITSupplies from "./pages/services/ITSupplies";
 import TechnologyResourcing from "./pages/services/TechnologyResourcing";
+import BespokeDevelopment from "./pages/services/BespokeDevelopment";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="/services/enterprise-applications" element={<EnterpriseApplications />} />
             <Route path="/services/it-supplies" element={<ITSupplies />} />
             <Route path="/services/technology-resourcing" element={<TechnologyResourcing />} />
+            <Route path="/services/bespoke-development" element={<BespokeDevelopment />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>

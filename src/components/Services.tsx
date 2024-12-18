@@ -42,13 +42,13 @@ const services = [
   {
     title: "Technology Resourcing",
     description: "Expert IT staffing and talent solutions.",
-    icon: Code,
+    icon: Database,
     href: "/services/technology-resourcing",
   },
   {
     title: "Bespoke Development",
-    description: "Custom software development services.",
-    icon: Laptop,
+    description: "Custom software solutions tailored to your business needs.",
+    icon: Code,
     href: "/services/bespoke-development",
   },
   {
@@ -60,7 +60,7 @@ const services = [
   {
     title: "Business Applications",
     description: "Custom business applications tailored to your needs.",
-    icon: Database,
+    icon: Laptop,
     href: "/services/business-applications",
   },
 ];
