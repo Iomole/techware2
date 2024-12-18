@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { ProductCategories } from "@/components/it-supplies/ProductCategories";
 import { FeaturedProducts } from "@/components/it-supplies/FeaturedProducts";
 import { ConsumablesSection } from "@/components/it-supplies/ConsumablesSection";
+import { OEMPartners } from "@/components/it-supplies/OEMPartners";
 import { motion } from "framer-motion";
 import { Package } from "lucide-react";
 
@@ -31,6 +32,7 @@ const ITSupplies = () => {
           </motion.div>
 
           <ProductCategories />
+          <OEMPartners />
           <FeaturedProducts />
           <ConsumablesSection />
         </div>
