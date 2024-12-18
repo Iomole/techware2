@@ -7,7 +7,7 @@ export const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="min-h-screen flex items-center justify-center px-4 bg-[#ea384c]"
+      className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-[#ea384c] via-[#f97316] to-[#ea384c]"
     >
       <div className="text-center max-w-4xl mx-auto">
         <motion.h1 
@@ -18,7 +18,7 @@ export const Hero = () => {
         >
           Enterprise Technology
           <br />
-          <span className="text-white">Solutions</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-white/80">Solutions</span>
         </motion.h1>
         <motion.p 
           initial={{ y: 20, opacity: 0 }}
@@ -34,10 +34,17 @@ export const Hero = () => {
           transition={{ delay: 0.6 }}
           className="flex justify-center gap-4"
         >
-          <Button size="lg" className="bg-white text-[#ea384c] hover:bg-white/90 border-none">
+          <Button 
+            size="lg" 
+            className="bg-white text-[#ea384c] hover:bg-white/90 border-none shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+          >
             Get Started
           </Button>
-          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-[#ea384c]">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-white text-white hover:bg-white hover:text-[#ea384c] shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+          >
             Learn More
           </Button>
         </motion.div>
