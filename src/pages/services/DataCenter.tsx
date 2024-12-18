@@ -12,7 +12,7 @@ const partnerOEMs = [
   },
   {
     name: "HPE",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png",
+    logo: "/lovable-uploads/ea8e4c4a-1ce6-4a7d-a3cd-2d2db31e5053.png",
     description: "Servers and networking infrastructure"
   },
   {
