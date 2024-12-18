@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Linkedin, Instagram } from 'lucide-react';
 
 export const Contact = () => {
   return (
@@ -13,9 +13,32 @@ export const Contact = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { icon: Phone, title: "Call Us", content: "+1 (234) 567-8900" },
-            { icon: Mail, title: "Email Us", content: "contact@techware.com" },
-            { icon: MapPin, title: "Visit Us", content: "123 Tech Street, City" },
+            { 
+              icon: Phone, 
+              title: "Call Us", 
+              content: [
+                "+234 905 220 3335",
+                "+234 803 246 4859",
+                "+234 811 110 1484"
+              ]
+            },
+            { 
+              icon: Mail, 
+              title: "Email Us", 
+              content: [
+                "info@techware.ng",
+                "marketing@techware.ng",
+                "www.techware.ng"
+              ]
+            },
+            { 
+              icon: MapPin, 
+              title: "Visit Us", 
+              content: [
+                "Abuja: 1, Anthony Enahoro Street, Utako, Abuja",
+                "Lagos: 10th Floor, Standard Chartered Building, Plot 142, Ahmadu Bello Way, VI, Lagos"
+              ]
+            },
           ].map((item, index) => (
             <motion.div
               key={item.title}
@@ -26,11 +49,13 @@ export const Contact = () => {
             >
               <Card className="text-center">
                 <CardHeader>
-                  <item.icon className="h-12 w-12 mx-auto text-blue-600 mb-4" />
+                  <item.icon className="h-12 w-12 mx-auto text-[#ea384c] mb-4" />
                   <CardTitle>{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">{item.content}</p>
+                  {item.content.map((line, i) => (
+                    <p key={i} className="text-gray-600 mb-2">{line}</p>
+                  ))}
                 </CardContent>
               </Card>
             </motion.div>
@@ -43,7 +68,33 @@ export const Contact = () => {
           viewport={{ once: true }}
           className="mt-16 text-center"
         >
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+          <div className="flex justify-center space-x-6 mb-8">
+            <a 
+              href="https://www.facebook.com/Officialtechware.ng/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#ea384c] hover:text-[#d02e3f] transition-colors"
+            >
+              <Facebook className="h-8 w-8" />
+            </a>
+            <a 
+              href="https://www.instagram.com/officialtechware.ng/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#ea384c] hover:text-[#d02e3f] transition-colors"
+            >
+              <Instagram className="h-8 w-8" />
+            </a>
+            <a 
+              href="https://ng.linkedin.com/company/techware-professional-services-ltd" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#ea384c] hover:text-[#d02e3f] transition-colors"
+            >
+              <Linkedin className="h-8 w-8" />
+            </a>
+          </div>
+          <Button size="lg" className="bg-[#ea384c] hover:bg-[#d02e3f] text-white">
             Get in Touch
           </Button>
         </motion.div>
