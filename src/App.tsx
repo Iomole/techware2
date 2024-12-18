@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import DataCenter from "./pages/services/DataCenter";
+import ManagedServices from "./pages/services/ManagedServices";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services/data-center" element={<DataCenter />} />
+            <Route path="/services/managed-services" element={<ManagedServices />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
