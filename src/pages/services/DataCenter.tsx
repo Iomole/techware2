@@ -7,27 +7,27 @@ import { Card, CardContent } from "@/components/ui/card";
 const partnerOEMs = [
   {
     name: "Dell EMC",
-    logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=100&fit=crop",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_EMC_logo.svg/2560px-Dell_EMC_logo.svg.png",
     description: "Enterprise storage and data center solutions"
   },
   {
     name: "HPE",
-    logo: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=200&h=100&fit=crop",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hewlett_Packard_Enterprise_logo.svg/2560px-Hewlett_Packard_Enterprise_logo.svg.png",
     description: "Servers and networking infrastructure"
   },
   {
     name: "Cisco",
-    logo: "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=200&h=100&fit=crop",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/2560px-Cisco_logo_blue_2016.svg.png",
     description: "Networking and security solutions"
   },
   {
     name: "NetApp",
-    logo: "https://images.unsplash.com/photo-1560732488-6b0df240254a?w=200&h=100&fit=crop",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/NetApp_logo.svg/2560px-NetApp_logo.svg.png",
     description: "Data storage and management"
   },
   {
     name: "VMware",
-    logo: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&h=100&fit=crop",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/2560px-Vmware.svg.png",
     description: "Virtualization and cloud infrastructure"
   }
 ];
@@ -76,11 +76,11 @@ const DataCenter = () => {
             >
               <Card className="h-full hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
-                  <div className="aspect-[2/1] relative mb-4 bg-gray-100 rounded-lg overflow-hidden">
+                  <div className="aspect-[3/1] relative mb-4 bg-white rounded-lg overflow-hidden p-4 flex items-center justify-center">
                     <img
                       src={partner.logo}
                       alt={`${partner.name} logo`}
-                      className="object-cover w-full h-full"
+                      className="object-contain w-full h-full"
                     />
                   </div>
                   <h3 className="text-xl font-semibold mb-2">{partner.name}</h3>
