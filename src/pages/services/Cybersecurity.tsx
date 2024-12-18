@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { Shield } from "lucide-react";
+import { Shield, Lock, Cloud, Server, Network, ShieldAlert } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card, CardContent } from "@/components/ui/card";
 import { Footer } from "@/components/Footer";
 import { SecuritySolutions } from "@/components/cybersecurity/SecuritySolutions";
 import { TechnologyPartners } from "@/components/cybersecurity/TechnologyPartners";

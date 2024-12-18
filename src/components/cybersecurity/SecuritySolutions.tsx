@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, ShieldAlert, Lock, Server, Network, Cloud, FileKey, Eye, Shield2 } from "lucide-react";
+import { Shield, ShieldAlert, Lock, Server, Network, Cloud, FileKey } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const solutions = [
