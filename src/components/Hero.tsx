@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Button } from './ui/button';
+import { Link } from 'react-router-dom';
 
 export const Hero = () => {
   return (
@@ -34,19 +35,23 @@ export const Hero = () => {
           transition={{ delay: 0.6 }}
           className="flex justify-center gap-4"
         >
-          <Button 
-            size="lg" 
-            className="bg-white text-[#ea384c] hover:bg-white/90 border-none shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-          >
-            Get Started
-          </Button>
-          <Button 
-            size="lg" 
-            variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-[#ea384c] shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
-          >
-            Learn More
-          </Button>
+          <Link to="/contact#contact-details">
+            <Button 
+              size="lg" 
+              className="bg-white text-[#ea384c] hover:bg-white/90 border-none shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            >
+              Get Started
+            </Button>
+          </Link>
+          <Link to="/contact#contact-details">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="border-white text-white hover:bg-white hover:text-[#ea384c] shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            >
+              Learn More
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </motion.div>

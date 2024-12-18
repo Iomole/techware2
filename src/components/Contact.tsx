@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Phone, Mail, MapPin, Facebook, Linkedin, Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const Contact = () => {
   return (
@@ -94,9 +95,11 @@ export const Contact = () => {
               <Linkedin className="h-8 w-8" />
             </a>
           </div>
-          <Button size="lg" className="bg-[#ea384c] hover:bg-[#d02e3f] text-white">
-            Get in Touch
-          </Button>
+          <Link to="/contact#contact-details">
+            <Button size="lg" className="bg-[#ea384c] hover:bg-[#d02e3f] text-white">
+              Get in Touch
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
