@@ -1,14 +1,14 @@
 import { Navigation } from "@/components/Navigation";
-import { Services } from "@/components/Services";
+import { Solutions } from "@/components/Solutions";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
-const Solutions = () => {
+const SolutionsPage = () => {
   return (
     <main className="bg-white">
       <Navigation />
       <div className="pt-16">
-        <Services />
+        <Solutions />
         <Contact />
       </div>
       <Footer />
@@ -16,4 +16,4 @@ const Solutions = () => {
   );
 };
 
-export default Solutions;
+export default SolutionsPage;
