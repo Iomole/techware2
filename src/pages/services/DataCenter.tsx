@@ -7,12 +7,12 @@ import { Card, CardContent } from "@/components/ui/card";
 const partnerOEMs = [
   {
     name: "Dell EMC",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_EMC_logo.svg/2560px-Dell_EMC_logo.svg.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/82/Dell_Logo.png",
     description: "Enterprise storage and data center solutions"
   },
   {
     name: "HPE",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hewlett_Packard_Enterprise_logo.svg/2560px-Hewlett_Packard_Enterprise_logo.svg.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png",
     description: "Servers and networking infrastructure"
   },
   {
@@ -22,7 +22,7 @@ const partnerOEMs = [
   },
   {
     name: "NetApp",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/NetApp_logo.svg/2560px-NetApp_logo.svg.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/NetApp_logo.svg/1280px-NetApp_logo.svg.png",
     description: "Data storage and management"
   },
   {
